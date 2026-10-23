@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Chathura Gunawardhana – Biology Tutor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<header class="page-hero img-cells">
+  <div class="container">
+    <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
+    <h1>Get in <span class="grad-text">Touch</span></h1>
+    <p>Questions about classes or fees? Send me a message – I'll reply as soon as I can.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container split" style="align-items:start">
+    <div class="grid" style="gap:18px">
+      <div class="card contact-card reveal left"><div class="icon-box">📧</div><div><h3>Email</h3><a href="mailto:chathuragunawardhana39@gmail.com" data-cfg="email">kavindunethmina75@gmail.com</a></div></div>
+      <div class="card contact-card reveal left"><div class="icon-box">📞</div><div><h3>Phone / WhatsApp</h3><a href="tel:0729427404" data-cfg="phone">0789636914</a></div></div>
+      <div class="card contact-card reveal left"><div class="icon-box">📍</div><div><h3>Location</h3><span data-cfg="location">Matara, Sri Lanka</span></div></div>
+      <div class="card reveal left"><h3 style="margin-bottom:14px">Follow me</h3><div class="socials" id="social-slot"></div>
+        <p style="margin-top:12px;font-size:.85rem;color:var(--muted)">Facebook • TikTok • YouTube</p></div>
+      <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Matara%2C+Sri+Lanka">🗺 Open Matara on Google Maps</a>
+    </div>
+
+    <div class="card reveal right">
+      <h3 style="font-size:1.5rem;margin-bottom:20px">Send a message</h3>
+      <form id="contact-form">
+        <div class="row">
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" required placeholder="Student / Parent name"></div>
+          <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="07X XXX XXXX"></div>
+        </div>
+        <div class="field"><label for="grade">Grade / Class</label>
+          <select id="grade" name="grade"><option>Grade 10</option><option>Grade 11</option><option>A/L 2027</option><option>A/L 2028</option><option>Other</option></select></div>
+        <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="4" required placeholder="I would like to join your Biology class…"></textarea></div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <button class="btn btn-primary" type="submit">✉ Send by Email</button>
+          <button class="btn btn-ghost" type="button" id="wa-send">💬 Send on WhatsApp</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="js/main.js"></script>
+</body>
+</html>
